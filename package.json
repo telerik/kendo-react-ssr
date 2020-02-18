@@ -1,0 +1,51 @@
+{
+  "name": "kendo-react-ssr",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@babel/preset-env": "^7.8.4",
+    "@babel/preset-react": "^7.8.3",
+    "@babel/register": "^7.8.3",
+    "@progress/kendo-data-query": "^1.5.2",
+    "@progress/kendo-drawing": "^1.6.0",
+    "@progress/kendo-react-data-tools": "^3.11.0",
+    "@progress/kendo-react-dateinputs": "^3.11.0",
+    "@progress/kendo-react-dropdowns": "^3.11.0",
+    "@progress/kendo-react-grid": "^3.11.0",
+    "@progress/kendo-react-inputs": "^3.11.0",
+    "@progress/kendo-react-intl": "^3.11.0",
+    "@progress/kendo-react-tooltip": "^3.11.0",
+    "@progress/kendo-theme-default": "^4.12.1",
+    "@testing-library/jest-dom": "^4.2.4",
+    "@testing-library/react": "^9.3.2",
+    "@testing-library/user-event": "^7.1.2",
+    "express": "^4.17.1",
+    "ignore-styles": "^5.0.1",
+    "react": "^16.12.0",
+    "react-dom": "^16.12.0",
+    "react-scripts": "3.3.1",
+    "rewire": "^4.0.1"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "ssr": "node server/index.js"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
