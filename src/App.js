@@ -44,7 +44,7 @@ function App() {
           sortable
           data={process(products, dataState)}
           {...dataState}
-          onDataStateChange={(e) => setDataState(e.data)}
+          onDataStateChange={(e) => setDataState(e.dataState)}
         >
           <GridColumn field="ProductID" title="Product Id" filter="numeric" />
           <GridColumn field="ProductName" title="Product Name" cell={MyCustomCell} />
